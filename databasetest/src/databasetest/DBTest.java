@@ -24,12 +24,12 @@ public class DBTest {
 
 			int custid = rs.getInt(1);
 			String custName = rs.getString(2);
-			String addr = rs.getString(3);
+			
 			String city = rs.getString(4);
 			String state = rs.getString(5);
 			String country = rs.getString(7);
 
-			System.out.println(custid + "  " + custName + addr + city + state + country);
+			System.out.println(custid + "  " + custName + city + state + country);
 
 		}
 		con.close();
