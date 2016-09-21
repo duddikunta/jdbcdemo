@@ -5,4 +5,4 @@
  * @author Chandu
  *
  */
-package databasetest;
+package in.demo.dbtest;
